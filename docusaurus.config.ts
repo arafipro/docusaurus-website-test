@@ -2,7 +2,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
-const SITE_TITLE = "Docusaurus Test Site"; 
+const SITE_TITLE = "Docusaurus Test Site";
 const GITHUB_URL = "https://github.com/afafipro/";
 const GITHUB_EDIT_URL =
   "https://github.com/arafipro/docusaurus-website-test/blob/main/";
@@ -31,7 +31,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "ja",
-    locales: ["ja", "en"],
+    locales: ["ja"],
   },
 
   presets: [
@@ -89,7 +89,7 @@ const config: Config = {
           items: [
             {
               label: "Tutorial",
-              to: "/docs/intro",
+              to: "/docs/tutorial/intro",
             },
           ],
         },
