@@ -15,8 +15,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.4.0",
-    "@docusaurus/preset-classic": "3.4.0",
+    "@docusaurus/core": "^3.5.1",
+    "@docusaurus/preset-classic": "^3.5.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
@@ -25,8 +25,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240806.0",
-    "@docusaurus/module-type-aliases": "3.4.0",
-    "@docusaurus/tsconfig": "3.4.0",
+    "@docusaurus/module-type-aliases": "^3.5.1",
+    "@docusaurus/tsconfig": "^3.5.1",
     "@docusaurus/types": "3.4.0",
     "typescript": "~5.2.2",
     "wrangler": "^3.70.0"
