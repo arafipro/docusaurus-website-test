@@ -1,13 +1,14 @@
 ---
-sidebar_position: 12
+sidebar_position: 11
 title: チェーンの実行
 ---
 
-ソースによると、`.invoke()` メソッドを使用して、作成したチェーンを実行できます。  チェーンは、言語モデルなどの入力を受け取り、出力パーサーからの出力などの出力を返す関数のように機能します。
+ソースによると、`.invoke()` メソッドを使用して、作成したチェーンを実行できます。
+チェーンは、言語モデルなどの入力を受け取り、出力パーサーからの出力などの出力を返す関数のように機能します。
 
 **チェーンの実行の例**
 
-この例では、`language` と `text` を含むJavaScript オブジェクトを引数として `.invoke()` メソッドを使用しています。
+この例では、`language` と `text` を含むJavaScriptオブジェクトを引数として `.invoke()` メソッドを使用しています。
 
 ```javascript
 await chain.invoke({ language: "italian", text: "hi" });

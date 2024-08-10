@@ -1,9 +1,11 @@
 ---
-sidebar_position: 11
+sidebar_position: 10
 title: チェーンの作成
 ---
 
-ソースによると、LangChain Expression Language (LCEL) を使用して、LangChain モジュールをチェーン接続できます。  `.pipe()` メソッドは、LangChain で2つの要素を組み合わせるために使用されます。  これは、最適化されたストリーミングやトレースのサポートなど、いくつかの利点があります。
+ソースによると、LangChain Expression Language (LCEL) を使用して、LangChain モジュールをチェーン接続できます。
+`.pipe()` メソッドは、LangChain で2つの要素を組み合わせるために使用されます。
+これは、最適化されたストリーミングやトレースのサポートなど、いくつかの利点があります。
 
 **チェーンの例**
 
