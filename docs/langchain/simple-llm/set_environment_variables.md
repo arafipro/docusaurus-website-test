@@ -10,18 +10,18 @@ LangChainでLLMアプリケーションを構築する際には、使用する�
 
 - **直接設定:** `export`コマンドを使用して、現在のセッションの環境変数を設定します。
   
-  ```bash
+  ```sh
   export OPENAI_API_KEY="your-api-key"
   ```
 
 - **.envファイル:** プロジェクトのルートディレクトリに`.env`ファイルを作成し、環境変数を記述します。
   
-  ```
+  ```sh
   OPENAI_API_KEY="your-api-key"
   ```
 
   そして、`process.env`オブジェクトを使用して環境変数を参照できます。
   
-  ```javascript
+  ```js
   const apiKey = process.env.OPENAI_API_KEY;
   ```
