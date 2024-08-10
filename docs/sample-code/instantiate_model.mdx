@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: モデルをインスタンス化
+title: タブの中に、タブの入れ子の例
 ---
 
 import Tabs from "@theme/Tabs";
@@ -11,7 +11,24 @@ import TabItem from "@theme/TabItem";
 
 <Tabs>
   <TabItem value="OpenAI" label="OpenAI" default>
-    ```javascript
+    <Tabs>
+      <TabItem value="npm" label="npm" default>
+        ```bash
+        npm i langchain
+        ```
+      </TabItem>
+      <TabItem value="yarn" label="yarn">
+        ```bash
+        yarn add langchain
+        ```
+      </TabItem>
+      <TabItem value="pnpm" label="pnpm">
+        ```bash
+        pnpm add langchain
+        ```
+      </TabItem>
+    </Tabs>
+    ```js
     import { ChatOpenAI } from "@langchain/openai";
     const model = new ChatOpenAI({ model: "gpt-4" });
     ```
@@ -22,7 +39,7 @@ import TabItem from "@theme/TabItem";
 
   </TabItem>
   <TabItem value="Anthropic" label="Anthropic">
-    ```javascript
+    ```js
     import { ChatAnthropic } from "@langchain/anthropic";
     const model = new ChatAnthropic({
       model: "claude-3-5-sonnet-20240620",
@@ -37,7 +54,7 @@ import TabItem from "@theme/TabItem";
   
   </TabItem>
   <TabItem value="FireworksAI" label="FireworksAI">
-    ```javascript
+    ```js
     import { ChatFireworks } from "@langchain/community/chat_models/fireworks";
     const model = new ChatFireworks({
       model: "accounts/fireworks/models/llama-v3p1-70b-instruct",
@@ -52,7 +69,7 @@ import TabItem from "@theme/TabItem";
 
   </TabItem>
   <TabItem value="MistralAI" label="MistralAI">
-    ```javascript
+    ```js
     import { ChatMistralAI } from "@langchain/mistralai";
     const model = new ChatMistralAI({
       model: "mistral-large-latest",
@@ -67,7 +84,7 @@ import TabItem from "@theme/TabItem";
 
   </TabItem>
   <TabItem value="Groq" label="Groq">
-    ```javascript
+    ```js
     import { ChatGroq } from "@langchain/groq";
     const model = new ChatGroq({
       model: "mixtral-8x7b-32768",
@@ -82,7 +99,7 @@ import TabItem from "@theme/TabItem";
 
   </TabItem>
   <TabItem value="VertexAI" label="VertexAI">
-    ```javascript
+    ```js
     import { ChatVertexAI } from "@langchain/google-vertexai";
     const model = new ChatVertexAI({
       model: "gemini-1.5-flash",
