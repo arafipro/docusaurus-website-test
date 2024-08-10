@@ -1,10 +1,21 @@
 ---
 sidebar_position: 1
+title: 本チュートリアルで学ぶこと
 ---
 
-# LangChain クイックスタートガイド
+## はじめに
 
-ソースに記載されているLangChainクイックスタートガイドの各手順に基づいて、適切と思われるファイル名を以下に示します。
+このチュートリアルでは、LangChainを用いてシンプルなLLMアプリケーションを構築する方法を学びます。
+具体的には、英語のテキストを他の言語に翻訳するアプリケーションを題材に、LangChainの基本的な使い方を習得します。
+
+## 本チュートリアルで学ぶこと
+
+- OpenAI APIの使い方
+- PromptTemplatesとOutputParsersの使い方
+- LangChain Expression Language (LCEL)を用いたコンポーネントの連結
+- LangSmithを使ったアプリケーションのデバッグとトレース
+
+<!-- ソースに記載されているLangChainクイックスタートガイドの各手順に基づいて、適切と思われるファイル名を以下に示します。
 
 - 1_install_langchain.md
 - 2_setup_langsmith.md
@@ -16,6 +27,4 @@ sidebar_position: 1
 - 8_use_output_parser.md
 - 9_create_prompt_template.md
 - 10_create_chain.md
-- 11_run_chain.md
-
-これらのファイル名は、各手順の内容を簡潔に表しており、順番に実行しやすいように番号を振っています。 
+- 11_run_chain.md -->
