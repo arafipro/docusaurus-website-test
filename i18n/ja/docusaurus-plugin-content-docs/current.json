@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.LangChain": {
+    "message": "LangChain",
+    "description": "The label for category LangChain in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.LCELを使ったシンプルなLLMアプリケーション構築": {
+    "message": "LCELを使ったシンプルなLLMアプリケーション構築",
+    "description": "The label for category LCELを使ったシンプルなLLMアプリケーション構築 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.LCELを使ったシンプルなLLMアプリケーション構築.link.generated-index.description": {
+    "message": "Learn how to build a simple LLM application with LCEL.",
+    "description": "The generated-index page description for category LCELを使ったシンプルなLLMアプリケーション構築 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.サンプルコード": {
+    "message": "サンプルコード",
+    "description": "The label for category サンプルコード in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label for category Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  }
+}
