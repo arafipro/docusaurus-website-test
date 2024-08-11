@@ -1,6 +1,7 @@
 import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
+import tailwindPlugin from "./plugins/tailwind-plugin.cjs";
 
 const USERNAME = "arafipro";
 const SITE_TITLE = "Docusaurusをキャッチアップ中";
@@ -55,21 +56,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-  plugins: [
-    async function myPlugin(context, options) {
-      return {
-        name: "docusaurus-tailwindcss",
-        configurePostCss(postcssOptions) {
-          // Appends TailwindCSS and AutoPrefixer.
-          postcssOptions.plugins.push(
-            require("tailwindcss"),
-            require("autoprefixer")
-          );
-          return postcssOptions;
-        },
-      };
-    },
-  ],
+  plugins: [tailwindPlugin],
 
   themeConfig: {
     // Replace with your project's social card
