@@ -2,7 +2,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
-const SITE_TITLE = "Docusaurus Test Site";
+const SITE_TITLE = "Docusaurusをキャッチアップ中";
 const GITHUB_URL = "https://github.com/afafipro/";
 const GITHUB_EDIT_URL =
   "https://github.com/arafipro/docusaurus-website-test/blob/main/";
