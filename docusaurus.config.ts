@@ -9,7 +9,7 @@ const GITHUB_EDIT_URL =
 
 const config: Config = {
   title: SITE_TITLE,
-  tagline: "Dinosaurs are cool",
+  // tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "afafipro", // Usually your GitHub org/user name.
+  projectName: "docusaurus-website-test", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
