@@ -38,6 +38,7 @@ export default function Home(): JSX.Element {
     >
       <HomepageHeader />
       <main>
+        <p className="flex justify-center text-7xl">test</p>
         <HomepageFeatures />
       </main>
     </Layout>
