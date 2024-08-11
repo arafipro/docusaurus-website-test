@@ -287,11 +287,11 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "下書き",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "このページは下書きです。 本番ビルドからは除外されます。",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
