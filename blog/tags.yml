@@ -2,11 +2,15 @@ docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus
-google-adsense:
+googleadsense:
   label: Google Adsense
-  permalink: /google-adsense
+  permalink: /googleadsense
   description: Google Adsense
-google-analytics:
+googleanalytics:
   label: Google Analytics
-  permalink: /google-analytics
+  permalink: /googleanalytics
   description: Google Adsense
+tailwindcss:
+  label: Tailwind CSS
+  permalink: /tailwindcss
+  description: Tailwind CSS
