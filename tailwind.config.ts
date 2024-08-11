@@ -1,7 +1,7 @@
-const { fontFamily } = require("tailwindcss/defaultTheme");
+import type { Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   corePlugins: {
     preflight: false,
     container: false,
@@ -26,4 +26,6 @@ module.exports = {
     },
   },
   plugins: [],
-};
+} satisfies Config;
+
+export default config;

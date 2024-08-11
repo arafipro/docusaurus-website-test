@@ -38,7 +38,9 @@ export default function Home(): JSX.Element {
     >
       <HomepageHeader />
       <main>
-        <p className="flex justify-center text-7xl text-red-500">Tailwind CSS test</p>
+        <p className="flex justify-center text-7xl text-red-500">
+          Tailwind CSS test
+        </p>
         <HomepageFeatures />
       </main>
     </Layout>

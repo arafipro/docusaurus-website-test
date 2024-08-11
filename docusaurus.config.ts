@@ -1,13 +1,14 @@
 import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
-import tailwindPlugin from "./plugins/tailwind-plugin.cjs";
+import tailwindPlugin from "./plugins/tailwind-plugin.js";
 
 const USERNAME = "arafipro";
 const SITE_TITLE = "Docusaurusをキャッチアップ中";
 const GITHUB_EDIT_URL = `https://github.com/${USERNAME}/docusaurus-website-test/blob/main/`;
 
 const config: Config = {
+  plugins: [tailwindPlugin],
   title: SITE_TITLE,
   // tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
@@ -33,7 +34,6 @@ const config: Config = {
     defaultLocale: "ja",
     locales: ["ja"],
   },
-
   presets: [
     [
       "classic",
@@ -56,8 +56,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-  plugins: [tailwindPlugin],
-
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
