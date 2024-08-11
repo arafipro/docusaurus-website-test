@@ -2,10 +2,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
+const USERNAME = "arafipro";
 const SITE_TITLE = "Docusaurusをキャッチアップ中";
-const GITHUB_URL = "https://github.com/afafipro/";
-const GITHUB_EDIT_URL =
-  "https://github.com/arafipro/docusaurus-website-test/blob/main/";
+const GITHUB_EDIT_URL = `https://github.com/${USERNAME}/docusaurus-website-test/blob/main/`;
 
 const config: Config = {
   title: SITE_TITLE,
@@ -20,7 +19,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "afafipro", // Usually your GitHub org/user name.
+  organizationName: USERNAME, // Usually your GitHub org/user name.
   projectName: "docusaurus-website-test", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -75,7 +74,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: GITHUB_URL,
+          href: `https://github.com/${USERNAME}`,
           label: "GitHub",
           position: "right",
         },
@@ -94,19 +93,15 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "SNS",
           items: [
-            // {
-            //   label: "Stack Overflow",
-            //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            // },
-            // {
-            //   label: "Discord",
-            //   href: "https://discordapp.com/invite/docusaurus",
-            // },
             {
-              label: "Twitter",
-              href: "https://twitter.com/arafipro",
+              label: "YouTube",
+              href: `https://www.youtube.com/@${USERNAME}`,
+            },
+            {
+              label: "X(Twitter)",
+              href: `https://twitter.com/${USERNAME}`,
             },
           ],
         },
@@ -118,8 +113,12 @@ const config: Config = {
               to: "/blog",
             },
             {
+              label: "Zenn",
+              href: `https://zenn.dev/${USERNAME}`,
+            },
+            {
               label: "GitHub",
-              href: GITHUB_URL,
+              href: `https://github.com/${USERNAME}`,
             },
           ],
         },
