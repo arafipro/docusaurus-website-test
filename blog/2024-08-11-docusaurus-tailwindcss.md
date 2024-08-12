@@ -124,17 +124,29 @@ const config = {
   plugins: [tailwindPlugin], // tailwindPluginを追加
 ```
 
-## 5. `custom.css`に設定を追加
+## 5. `tailwind.css`を作成
 
-`custom.css`に各@tailwindディレクティブを追加します。
+`src/css`ディレクトリに`tailwind.css`を新規作成します。  
+そして、`tailwind.css`に各@tailwindディレクティブを追加します。
 
-```css title="src/css/custom.css"
+```css title="src/css/tailwind.css"
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 
-## 6. Tailwind CSSの動作確認
+## 6. `tailwind.css`に設定を追加
+
+`docusaurus.config.ts`の`theme`プロパティに`tailwind.css`のパスを追加します。
+
+```css title="docusaurus.config.ts"
+theme: {
+  // highlight-next-line
+  customCss: ["./src/css/custom.css", "./src/css/tailwind.css"],
+},
+```
+
+## 7. Tailwind CSSの動作確認
 
 src/pages/index.tsxに以下のコードを追加します。
 
